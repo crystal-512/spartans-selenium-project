@@ -12,7 +12,8 @@ public class Activity2 {
 
         driver.manage().window().maximize();
 
-        driver.getTitle();
+        String title = driver.getTitle();
+        System.out.println(title);
 
         driver.quit();
     }
