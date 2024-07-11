@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Cross Browsing Handling">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Locators/id/Activity1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Locators/id/UsingLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsingHandling.java" afterDir="false" />
+    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Using Locator">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/review/week_1/Activity1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/intro/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/intro/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/Activity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/intro/HandleBrowser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/intro/crossbrowsing/CrossBrowsing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/intro/crossbrowsing/CrossBrowsingHandling.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Activity1.executor": "Run",
-    "Application.Activity2.executor": "Run",
-    "Application.CrossBrowsing.executor": "Run",
-    "Application.CrossBrowsingHandling.executor": "Run",
-    "Application.HandleBrowser.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Activity1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Activity2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossBrowsing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossBrowsingHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandleBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Activity1">
     <configuration name="Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Locators.id.Activity1" />
@@ -151,13 +143,64 @@
       <option name="project" value="LOCAL" />
       <updated>1720654948914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cross Browsing Handling">
+      <option name="closed" value="true" />
+      <created>1720664215093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664215094</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cross Browsing Handling">
+      <option name="closed" value="true" />
+      <created>1720664235732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664235732</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Activity 1 Locators">
+      <option name="closed" value="true" />
+      <created>1720664290999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664290999</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Activity 2">
+      <option name="closed" value="true" />
+      <created>1720664329819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664329819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Activity 1">
+      <option name="closed" value="true" />
+      <created>1720664346078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664346078</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Using Locator">
+      <option name="closed" value="true" />
+      <created>1720664368265</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664368265</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial selenium project" />
-    <MESSAGE value="Activity 2" />
     <MESSAGE value="Cross Browsing Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cross Browsing Handling" />
+    <MESSAGE value="Activity 1 Locators" />
+    <MESSAGE value="Activity 2" />
+    <MESSAGE value="Activity 1" />
+    <MESSAGE value="Using Locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Locator" />
   </component>
 </project>
