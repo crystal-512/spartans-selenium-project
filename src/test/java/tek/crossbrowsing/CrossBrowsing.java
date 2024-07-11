@@ -1,4 +1,4 @@
-package tek.intro.crossbrowsing;
+package tek.crossbrowsing;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,3 +17,4 @@ public class CrossBrowsing {
 
     }
 }
+
