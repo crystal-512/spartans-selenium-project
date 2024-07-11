@@ -34,13 +34,15 @@ public class Activity1 {
         WebElement passwordElement = driver.findElement(passwordLocator);
         passwordElement.sendKeys("123456mmmnn");
 
-        By confirmPasswordLocator = By.id("passwordInput");
+        By confirmPasswordLocator = By.id("confirmPasswordInput");
         WebElement confirmPasswordElement = driver.findElement(confirmPasswordLocator);
         confirmPasswordElement.sendKeys("123456mmmnn");
 
         By signUpLocator = By.id("newAccountBtn");
         WebElement signUpElement = driver.findElement(signUpLocator);
         signUpElement.click();
+
+
 
 
     }
