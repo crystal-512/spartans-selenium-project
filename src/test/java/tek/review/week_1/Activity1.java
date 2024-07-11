@@ -42,8 +42,6 @@ public class Activity1 {
         WebElement signUpElement = driver.findElement(signUpLocator);
         signUpElement.click();
 
-        By loginBtnLocator = By.id("loginBtn");
-        WebElement loginBtnElement = driver.findElement(loginBtnLocator);
-        loginBtnElement.click();
+
     }
 }
