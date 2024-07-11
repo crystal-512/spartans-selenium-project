@@ -1,4 +1,4 @@
-package tek.intro;
+package tek;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
