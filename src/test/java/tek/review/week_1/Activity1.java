@@ -48,7 +48,7 @@ public class Activity1 {
 
         Thread.sleep(3000);
 
-        By profileImageLocator = By.id("profileImage");driver.quit();
+        By profileImageLocator = By.id("profileImage");
         WebElement profileImageElement = driver.findElement(profileImageLocator);
 
         boolean isProfileDisplayed = profileImageElement.isDisplayed();
@@ -63,14 +63,15 @@ public class Activity1 {
 
     public static String generateRandomString(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        StringBuilder stringBuilder = new StringBuilder(length);
+        StringBuilder sb = new StringBuilder(length);
         Random random = new Random();
         for (int i = 0; i < length; i++) {
-            stringBuilder.append(characters.charAt(random.nextInt(characters.length())));
+            sb.append(characters.charAt(random.nextInt(characters.length())));
         }
-        return stringBuilder.toString();
-
+        return sb.toString();
     }
+
+
 
 
 
