@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Activity1 {
 
@@ -42,8 +44,19 @@ public class Activity1 {
         WebElement signUpElement = driver.findElement(signUpLocator);
         signUpElement.click();
 
+        By profileImageLocator = By.id("profileImage");
+        WebElement profileImageElement = driver.findElement(profileImageLocator);
+        profileImageElement.isDisplayed();
+
+        if(profileImageElement.isDisplayed()){
+            System.out.println(" test Pass");
+        }else { System.out.println(" test not Pass"); }
+     }
+
+
+
 
 
 
     }
-}
+
