@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Locator Activity 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/locator/ActivityOneLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721090198270</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Locator Activity 2">
+      <option name="closed" value="true" />
+      <created>1721090238314</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721090238314</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

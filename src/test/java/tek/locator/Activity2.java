@@ -13,11 +13,11 @@ public class Activity2 {
         driver.manage().window().maximize();
         driver.get("https://google.com/");
 
-        driver.findElement(By.className("gLFyf")).sendKeys("Tek School");
+        driver.findElement(By.name("q")).sendKeys("Tek School");
 
         driver.findElement(By.className("gNO89b")).click();
 
-        driver.findElement(By.partialLinkText("TEK SCHOOL")).click();
+        driver.findElement(By.partialLinkText("TEK SCHOOL Modern")).click();
 
         driver.quit();
 
