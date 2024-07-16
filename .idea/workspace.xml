@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Locator Activity 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/locator/TagNameLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "Application.CrossBrowsing.executor": "Run",
     "Application.CrossBrowsingHandling.executor": "Run",
     "Application.HandleBrowser.executor": "Run",
+    "Application.TagNameLocator.executor": "Run",
     "Application.UsingLinkNameAndId.executor": "Run",
     "Application.tek.review.week_1.Activity1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -48,7 +49,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Activity2">
+  <component name="RunManager" selected="Application.TagNameLocator">
     <configuration name="Activity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tek.locator.Activity" />
       <module name="Spartans-selenium-project" />
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tek.review.week_1.RandomEmail" />
+    <configuration name="TagNameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tek.locator.TagNameLocator" />
       <module name="Spartans-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tek.review.week_1.*" />
+          <option name="PATTERN" value="tek.locator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TagNameLocator" />
         <item itemvalue="Application.Activity2" />
         <item itemvalue="Application.Activity" />
         <item itemvalue="Application.UsingLinkNameAndId" />
         <item itemvalue="Application.tek.review.week_1.Activity1" />
-        <item itemvalue="Application.RandomEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721090238314</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Locator Activity 2">
+      <option name="closed" value="true" />
+      <created>1721091902465</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721091902465</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
