@@ -33,8 +33,8 @@ public class TagNameLocator {
       //  List<WebElement> imageElements = driver.findElements(imageTag);
       //  System.out.println(imageElements.size());
 
-        By buttonsTag = By.tagName("button");
-        List<WebElement> buttonsElements = driver.findElements(buttonsTag);
+
+        List<WebElement> buttonsElements = driver.findElements(By.tagName("button"));
         System.out.println(buttonsElements.size());
 
         for (WebElement element : buttonsElements) {

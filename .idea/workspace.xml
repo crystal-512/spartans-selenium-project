@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Locator Activity 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/locator/TagNameLocator.java" afterDir="false" />
+    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Tag Name Locator">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/xpath/AbsoluteXPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/xpath/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/TagNameLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/TagNameLocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,14 @@
     "Application.TagNameLocator.executor": "Run",
     "Application.UsingLinkNameAndId.executor": "Run",
     "Application.tek.review.week_1.Activity1.executor": "Run",
+    "Application.tek.xpath.Activity.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TagNameLocator">
+  <component name="RunManager" selected="Application.tek.xpath.Activity">
     <configuration name="Activity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tek.locator.Activity" />
       <module name="Spartans-selenium-project" />
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tek.review.week_1.Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tek.review.week_1.Activity1" />
+    <configuration name="tek.xpath.Activity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tek.xpath.Activity" />
       <module name="Spartans-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tek.review.week_1.*" />
+          <option name="PATTERN" value="tek.xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tek.xpath.Activity" />
         <item itemvalue="Application.TagNameLocator" />
         <item itemvalue="Application.Activity2" />
         <item itemvalue="Application.Activity" />
         <item itemvalue="Application.UsingLinkNameAndId" />
-        <item itemvalue="Application.tek.review.week_1.Activity1" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721091902465</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Tag Name">
+      <option name="closed" value="true" />
+      <created>1721093789998</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721093789999</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,6 +349,8 @@
     <MESSAGE value="Using Locator Activity" />
     <MESSAGE value="Locator Activity" />
     <MESSAGE value="Locator Activity 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Locator Activity 2" />
+    <MESSAGE value="Tag Name" />
+    <MESSAGE value="Tag Name Locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag Name Locator" />
   </component>
 </project>
