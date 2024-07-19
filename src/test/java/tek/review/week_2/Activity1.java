@@ -25,11 +25,11 @@ public class Activity1 {
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#signinLink")))
                 .click();
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[name='email']")))
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[name='email']")))
                 .sendKeys("crystal.a512@gmail.com");
 
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[name='password']")))
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[name='password']")))
                 .sendKeys("CC234cc!");
 
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".login__submit")))
@@ -38,13 +38,14 @@ public class Activity1 {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("accountLink")))
                 .click();
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[name='phoneNumber']")))
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[name='phoneNumber']")))
                 .sendKeys("555-222-1234");
 
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#personalUpdateBtn")))
                 .click();
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".Toastify")));
+        WebElement updateElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".Toastify")));
+        System.out.println(updateElement.getText());
 
         driver.quit();
 
