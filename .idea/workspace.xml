@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Review">
+    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Review Week 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/SelectingFromDropDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/review/week_2/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/review/week_2/Activity1.java" afterDir="false" />
     </list>
@@ -32,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Activity.executor": "Run",
-    "Application.Activity1.executor": "Run",
-    "Application.Activity2.executor": "Run",
-    "Application.CrossBrowsing.executor": "Run",
-    "Application.CrossBrowsingHandling.executor": "Run",
-    "Application.HandleBrowser.executor": "Run",
-    "Application.SynchronizationIntro.executor": "Run",
-    "Application.TagNameLocator.executor": "Run",
-    "Application.UsingLinkNameAndId.executor": "Run",
-    "Application.tek.review.week_1.Activity1.executor": "Run",
-    "Application.tek.review.week_2.Activity1.executor": "Run",
-    "Application.tek.xpath.Activity.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Activity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Activity1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Activity2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossBrowsing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossBrowsingHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandleBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizationIntro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TagNameLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingLinkNameAndId.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tek.review.week_1.Activity1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tek.review.week_2.Activity1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tek.xpath.Activity.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.tek.review.week_2.Activity1">
+}</component>
+  <component name="RunManager" selected="Application.tek.uilities.Activity1">
     <configuration name="Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tek.css.Activity1" />
       <module name="Spartans-selenium-project" />
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagNameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tek.locator.TagNameLocator" />
+    <configuration name="tek.review.week_2.Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tek.review.week_2.Activity1" />
       <module name="Spartans-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tek.locator.*" />
+          <option name="PATTERN" value="tek.review.week_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tek.review.week_2.Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tek.review.week_2.Activity1" />
+    <configuration name="tek.uilities.Activity1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tek.uilities.Activity1" />
       <module name="Spartans-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tek.review.week_2.*" />
+          <option name="PATTERN" value="tek.uilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tek.uilities.Activity1" />
         <item itemvalue="Application.tek.review.week_2.Activity1" />
         <item itemvalue="Application.Activity1" />
         <item itemvalue="Application.SynchronizationIntro" />
         <item itemvalue="Application.tek.xpath.Activity" />
-        <item itemvalue="Application.TagNameLocator" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721349689716</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Review Week 2">
+      <option name="closed" value="true" />
+      <created>1721353059730</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721353059730</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,6 +386,7 @@
     <MESSAGE value="Tag Name" />
     <MESSAGE value="Tag Name Locator" />
     <MESSAGE value="Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Review" />
+    <MESSAGE value="Review Week 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review Week 2" />
   </component>
 </project>
