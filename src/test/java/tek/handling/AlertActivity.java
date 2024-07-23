@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class JavaScriptAlertHandling {
+public class AlertActivity {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
@@ -20,17 +20,14 @@ public class JavaScriptAlertHandling {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("alertBtn"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("promptBtn"))).click();
 
-        Alert alert = driver.switchTo().alert();
+        Alert promptAlert = driver.switchTo().alert();
 
-        String alertText = alert.getText();
-        System.out.println(alertText);
+        promptAlert.sendKeys("Crystal");
 
-        alert.accept();
+        promptAlert.accept();
 
-        alert.sendKeys("Entering some values to alert");
-
-        alert.dismiss();
+        promptAlert.dismiss();
     }
 }
