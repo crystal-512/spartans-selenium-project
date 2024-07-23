@@ -13,6 +13,15 @@ import java.util.Random;
 
 public class Activity1 {
 
+     /*
+    in retail sign in with valid credentials and go to account page.
+    update phone number. and validate Success toast is displayed.
+    your test should work without changing multiple time.
+    Apply implicit and explicit wait.
+    use any locators available and you like.
+    push to repository.
+     */
+
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();

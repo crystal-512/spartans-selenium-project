@@ -1,4 +1,4 @@
-package Locators.id;
+package tek.locator.id;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,6 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Activity1 {
+
+     /*
+    In Retail App click on Sign in then enter email and password
+    then Click on Login
+    Push to your github repository
+     */
+
 
     public static void main(String[] args) throws InterruptedException{
 

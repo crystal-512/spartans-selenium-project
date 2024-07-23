@@ -17,8 +17,10 @@ public class SynchronizationIntro {
         driver.manage().window().maximize();
         driver.get("https://retail.tekschool-students.com/");
 
+        //Applying Implicit Wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        //Applying Explicit Wait
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("signinLink")));
@@ -30,6 +32,7 @@ public class SynchronizationIntro {
         WebElement passwordElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
         passwordElement.sendKeys("wrongpassword");
 
+        //simple method chaining
         wait.until(ExpectedConditions.elementToBeClickable(By.id("LoginBtn"))).click();
 
         WebElement errorElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("error")));

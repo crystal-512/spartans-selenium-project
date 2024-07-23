@@ -1,4 +1,4 @@
-package tek.css;
+package tek.locator.css;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

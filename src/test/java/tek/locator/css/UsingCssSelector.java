@@ -1,4 +1,4 @@
-package tek.css;
+package tek.locator.css;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,11 +8,10 @@ public class UsingCssSelector {
 
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
         driver.get("https://retail.tekschool-students.com/");
+        driver.manage().window().maximize();
 
-        Thread.sleep(3000);
-
+        Thread.sleep(10000);
 
         By titleLocator = By.cssSelector("div.home__categories-grid > div:nth-child(2) > h1");
         String text = driver.findElement(titleLocator).getText();
@@ -21,4 +20,9 @@ public class UsingCssSelector {
 
         driver.quit();
     }
+
+    public By getButtonLocator(String buttonText) {
+        return By.xpath("//button[text() ='"+buttonText+"']");
+    }
 }
+

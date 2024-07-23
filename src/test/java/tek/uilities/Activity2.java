@@ -1,5 +1,6 @@
 package tek.uilities;
 
+import net.bytebuddy.agent.builder.AgentBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.List;
 
 public class Activity2 {
 
@@ -20,8 +22,10 @@ public class Activity2 {
 
         WebElement element = driver.findElement(By.id("languageSelect"));
 
-        Select programmingSelect = new Select(element);
+        Select languageSelect = new Select(element);
+        List<WebElement> options = languageSelect.getOptions();
+        int size = options.size();
 
-        programmingSelect.selectByValue("Italian");
+        languageSelect.selectByIndex(size-1);
     }
 }

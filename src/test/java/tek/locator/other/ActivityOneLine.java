@@ -1,4 +1,4 @@
-package tek.locator;
+package tek.locator.other;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

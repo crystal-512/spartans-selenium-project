@@ -20,8 +20,8 @@ public class Activity1 {
 
         WebElement element = driver.findElement(By.id("countrySelect"));
 
-        Select programmingSelect = new Select(element);
+        Select countrySelect = new Select(element);
 
-        programmingSelect.selectByIndex(2);
+        countrySelect.selectByIndex(2);
     }
 }

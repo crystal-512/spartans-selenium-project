@@ -1,4 +1,4 @@
-package Locators.id;
+package tek.locator.id;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,11 +15,13 @@ public class UsingLocator {
         driver.manage().window().maximize();
         driver.get("https://retail.tekschool-students.com/");
 
+        //Locate the element.
         By searchInputLocator = By.id("searchInput");
-
+        //find the Element
         WebElement searchInputElement = driver.findElement(searchInputLocator);
-
+        //Perform the Action
         searchInputElement.sendKeys("TV");
+
 
         By searchBtnLocator = By.id("searchBtn");
         WebElement searchBtnElement = driver.findElement(searchBtnLocator);
