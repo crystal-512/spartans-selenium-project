@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Activity 2 Utilities">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/intro/HandleBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/FacebookActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/HandleDropDownWithoutSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Locators/id/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/id/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Locators/id/UsingLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/id/UsingLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/intro/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/intro/Activity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsingHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/crossbrowsing/CrossBrowsingHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/css/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/css/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/css/UsingCssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/css/UsingCssSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/other/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/other/Activity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/ActivityOneLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/other/ActivityOneLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/TagNameLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/other/TagNameLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/locator/UsingLinkNameAndId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/other/UsingLinkNameAndId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/review/week_1/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/review/week_1/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/review/week_2/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/review/week_2/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/synchronization/SynchronizationIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/synchronization/SynchronizationIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/uilities/Activity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/xpath/AbsoluteXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/xpath/AbsoluteXPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/xpath/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/locator/xpath/Activity.java" afterDir="false" />
-    </list>
+    <list default="true" id="627a72d6-2163-4287-88cc-8b097a35539a" name="Changes" comment="Activities" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721692682098</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Activities">
+      <option name="closed" value="true" />
+      <created>1721700357114</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721700357114</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -429,6 +411,7 @@
     <MESSAGE value="Review Week 2" />
     <MESSAGE value="Activity 1 Utilities" />
     <MESSAGE value="Activity 2 Utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity 2 Utilities" />
+    <MESSAGE value="Activities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activities" />
   </component>
 </project>
