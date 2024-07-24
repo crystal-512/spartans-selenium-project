@@ -22,12 +22,17 @@ public class AlertActivity {
 
         wait.until(ExpectedConditions.elementToBeClickable(By.id("promptBtn"))).click();
 
-        Alert promptAlert = driver.switchTo().alert();
+        Alert promptAlert = wait.until(ExpectedConditions.alertIsPresent());
 
         promptAlert.sendKeys("Crystal");
 
         promptAlert.accept();
 
-        promptAlert.dismiss();
+        String alertText = promptAlert.getText();
+        System.out.println(alertText);
+
+
+
+
     }
 }
