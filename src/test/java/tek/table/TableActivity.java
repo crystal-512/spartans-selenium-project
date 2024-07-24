@@ -28,7 +28,7 @@ public class TableActivity {
 
         driver.findElement(By.linkText("Plans")).click();
 
-        List<WebElement> priceElements = driver.findElements(By.cssSelector("th[text()='Plan Base Price'] > td:nth-child(2)"));
+        List<WebElement> priceElements = driver.findElements(By.xpath( "//table/tbody/tr/td[3]"));
         System.out.println(priceElements.size());
 
         for (WebElement element : priceElements) {
