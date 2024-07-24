@@ -24,7 +24,6 @@ public class Activity3 {
         driver.get("https://retail.tekschool-students.com/");
 
         driver.manage().window().maximize();
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -32,6 +31,7 @@ public class Activity3 {
         wait.until(ExpectedConditions
                         .elementToBeClickable(By.xpath("//img[@alt='Accessories']")))
                 .click();
+
 
         wait.until(ExpectedConditions
                         .elementToBeClickable(By.xpath("//div[@class='products']/div[2]/img")))
