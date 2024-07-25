@@ -91,6 +91,10 @@ public class Activity1 {
         return sb.toString();
     }
 
+    public static void clickOnElement(WebDriver driver, By locator) {
+        driver.findElement(locator).click();
+    }
+
 
 
 }
