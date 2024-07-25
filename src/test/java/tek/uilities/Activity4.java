@@ -24,6 +24,7 @@ public class Activity4 {
 
         String errorMessage = utility.getElementText(By.className("error"));
         System.out.println(errorMessage);
+
         driver.quit();
 
 
